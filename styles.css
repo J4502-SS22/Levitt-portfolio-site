@@ -1,4 +1,77 @@
+body{
+  background: yellow;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
 h1{
   display: flex;
   justify-content: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+}
+
+#list{
+  display: flex;
+  justify-content: center;
+}
+
+.navlist{
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navlist li{
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-size: 2em;
+}
+
+.active{
+  background-color: blue;
+}
+
+.active a{
+  color: white;
+}
+
+#radio-picture img{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#design-picture img{
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
